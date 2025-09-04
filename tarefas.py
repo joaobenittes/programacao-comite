@@ -13,7 +13,8 @@ idade = int(input("informe sua idade -> "))
 meses = idade * 12
 dias = meses * 365
 print("sua idade em meses e " , meses , "e em dias ", dias )
+
     
 nota1 = float(input("informe a primeira nota -> "))
 nota2 = float(input("informe a segunda nota ->  "))
-nota3 =float(input("informe a terceira nota -> "))
+nota3 = float(input("informe a terceira nota -> "))

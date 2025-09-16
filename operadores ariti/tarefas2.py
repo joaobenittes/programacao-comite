@@ -1,5 +1,5 @@
 numero_20 = int(input("informe um numero  -> "))
-print("antecessor ->  " , numero_1  - 1,
+print("antecessor ->  " , numero_1  - 1,impar
       "sucessor" ->  " , numero_1 + 1)
 
 # conversor de °c _> °f

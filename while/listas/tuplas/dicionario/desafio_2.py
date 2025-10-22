@@ -28,7 +28,7 @@ while (opçao != 0):
         for aluno in alunos.values():
             soma_notas += aluno['nota']
 
-        print(f'a media das notas e {soma_notas / len(alunos)}' \n)
+        print(f'a media das notas e {soma_notas / len(alunos)}' \n )
 
     elif opçao == 3:
         maior = 0
@@ -42,7 +42,7 @@ while (opçao != 0):
         print(f'o aluno com a maior nota e {alunos[id_aluno]['nome']} | nota  {maior}')
 
     else:
-        print('\n opçao invalida \n ')
+        print('\n opçao invalida \n ') 
 
 
               

@@ -6,7 +6,7 @@ def encontrar_palavra(nome_arquivo, palavra):
             for linha in texto:
                 if palavra.lower() in linha.lower():
                     cont += 1 
-                    print(f'palavra.lower()}', f'encontrada! | qtd palavras encontradas -> ')
+                    print(f'palavra {palavra.lower()}', f'encontrada! | qtd palavras encontradas -> ')
     
     except FileNotFoundError:
         print('print nao encontrado!!!!!')

@@ -1,7 +1,7 @@
 from shutil import move
 
 def mover_arquivo():
-    move('teste.txt', 'docs/teste.txt')
+    move('teste.txt', 'Docs/teste.txt')
 
 
 def main():

@@ -13,7 +13,7 @@ class carro:
         self.ano = ano
         self.motor = motor
 
-    def exibir_info(self):
+    def exibir_info(self):             
         print(f'carro: {self.modelo}, ano: {self.ano}')
         self.motor.exibir_info()
 
